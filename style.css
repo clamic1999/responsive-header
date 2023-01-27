@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+.topbar{
+    background-color: lightpink;
+    height: 10%;
+    width: 100%;
+    overflow: hidden;
+    
+}
+.topbar img{
+    height: 10%;
+    width: 10%;
+    margin-top: 5px;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+.topbar .dog a{
+    line-height: 3rem;
+    padding-left: 5px;
+    margin-left: 2rem;
+    
+}
+.dog{
+    float: right;
+    margin-top: 3%;
+    margin-right: 2%;
+}
+.topbar a:hover{
+    background-color: rgb(37, 223, 20);
+    color: black;
+    
+}
+@media screen and (max-width: 500px){
+    .topbar .dog a{
+        display: block;
+        float: none;
+        text-align: center;
+    }
+    .dog{
+        float: none;
+    }
+}
